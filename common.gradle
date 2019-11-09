@@ -1,0 +1,6 @@
+ext {
+    toString = { k -> "\"${k}\"" }
+    toBoolean = { k -> "${k}" }
+    toInt = { k -> "${k}" }
+}
+
